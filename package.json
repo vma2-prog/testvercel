@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "express": "^5.3.0"
+  },
+  "name": "testvercel",
+  "version": "1.0.0",
+  "description": "Testando o backend do Vercel",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vma2-prog/testvercel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vma2-prog/testvercel/issues"
+  },
+  "homepage": "https://github.com/vma2-prog/testvercel#readme"
+}
