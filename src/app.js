@@ -3,10 +3,11 @@ const path = require('path');
 const fs = require('fs');
 const app = express();
 
-const dirs = {
-    root: path.join(__dirname, '..'),
-    public: path.join(dirs.root, 'public')
+let dirs = {
+    root: path.join(__dirname, '..')
 };
+
+dirs.public = path.join(dirs.root, 'public');
 
 const testfile = path.join(dirs.root, 'test.txt');
 
